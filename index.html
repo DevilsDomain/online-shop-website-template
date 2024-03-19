@@ -9,18 +9,18 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="src/img/favicon.ico" rel="icon">
+    <link href="./src/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" as="style">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="src/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="src/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./src/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./src/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./src/css/style.min.css" rel="stylesheet">
@@ -147,15 +147,15 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="shop.html" class="nav-item nav-link">Shop</a>
-                            <a href="src/pages/detail.html" class="nav-item nav-link">Shop Detail</a>
+                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                                    <a href="src/pages/cart.html" class="dropdown-item">Shopping Cart</a>
-                                    <a href="src/pages/checkout.html" class="dropdown-item">Checkout</a>
+                                    <a href="cart.html" class="dropdown-item">Shopping Cart</a>
+                                    <a href="checkout.html" class="dropdown-item">Checkout</a>
                                 </div>
                             </div>
-                            <a href="src/pages/contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <a href="" class="btn px-0">
@@ -187,7 +187,7 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item position-relative active" style="height: 430px;">
-                            <img loading="lazy" class="position-absolute w-100 h-100" src="src/img/carousel-1.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="src/img/carousel-1.jpg" style="object-fit: cover;">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Men Fashion</h1>
@@ -1030,17 +1030,17 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" defer />
-    <script src="./src/lib/easing/easing.min.js" async />
-    <script src="./src/lib/owlcarousel/owl.carousel.min.js" async />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" defer ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" ></script>
+    <script src="src/lib/easing/easing.min.js" async ></script>
+    <script src="src/lib/owlcarousel/owl.carousel.min.js" async ></script>
 
     <!-- Contact Javascript File -->
-    <script src="./src/mail/jqBootstrapValidation.min.js" defer />
-    <script src="./src/mail/contact.js" defer /></script>
+    <script src="src/mail/jqBootstrapValidation.min.js" defer ></script>
+    <script src="src/mail/contact.js" defer ></script>
 
     <!-- Template Javascript -->
-    <script src="./src/js/main.js" defer /></script>
+    <script src="src/js/main.js" defer ></script>
 
 </body>
 
