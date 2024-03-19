@@ -6,11 +6,11 @@
   "directories": {
     "lib": "lib"
   },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "vite build"
-
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/DevilsDomain/online-shop-website-template#readme",
   "dependencies": {
-    "vite": "^5.1.6"
+    "cssnano": "^6.1.0",
+    "terser": "^5.29.2",
+    "vite": "^5.1.6",
+    "vite-plugin-imagemin": "^0.6.1"
   }
 }

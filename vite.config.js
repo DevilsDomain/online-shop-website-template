@@ -1,17 +1,14 @@
-import { defineConfig } from 'vite';
+// vite.config.js
+import { defineConfig } from "vite";
+import cssnano from "cssnano";
+import imagemin from "vite-plugin-imagemin";
 
 export default defineConfig({
-  // Specify the directory where Vite will look for your source files
-  root: './',
-
-  // Specify the directory where Vite will output the built files
+  root: ".",
   build: {
-    outDir: './dist',
+    outDir: "dist",
+    assetsDir: "assets",
+    minify: "terser",
   },
-
-  // Configure the development server
-  server: {
-    // Configure the port for the development server
-    port: 3000,
-  },
+  plugins: [imagemin(), cssnano()],
 });
