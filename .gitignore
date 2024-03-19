@@ -1,0 +1,15 @@
+# Node.js dependencies
+/node_modules
+
+# Vite build output directory
+/dist
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Log files
+*.log
